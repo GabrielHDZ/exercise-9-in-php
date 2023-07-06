@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 <?php
 class Persona{
     //declaracion de propiedades
@@ -80,9 +71,7 @@ $cliente1->setEdad(33);
 $cliente1->setTelefono(2345566);
 $cliente1->setCredito(1234444);
 echo("Nombre del cliente: {$cliente1->getNombre()},con edad: {$cliente1->getEdad()}, numero telefonico: {$cliente1->getTelefono()}, y numero de credito: {$cliente1->getCredito()}");
-?>
-<br>
-<?php
+
 $trabajador1=new Trabajador();
 $trabajador1->setNombre("Marcos");
 $trabajador1->setEdad(45);
@@ -90,8 +79,4 @@ $trabajador1->setTelefono(5568565);
 $trabajador1->setSalario(3948);
 echo("Nombre del trabajador: {$trabajador1->getNombre()},con edad: {$trabajador1->getEdad()}, numero de telefono: {$trabajador1->getTelefono()}, con salario:$ {$trabajador1->getSalario()}");
 
-
 ?>
-</body>
-</html>
-
